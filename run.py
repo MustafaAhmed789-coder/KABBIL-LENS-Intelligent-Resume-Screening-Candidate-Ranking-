@@ -18,7 +18,7 @@ def start():
 
     print("[+] Starting Frontend...")
     frontend = subprocess.Popen(
-        ["npm", "run", "start"],
+        ["npm", "run", "dev"],
         cwd=FRONTEND_DIR
     )
     processes.append(frontend)
